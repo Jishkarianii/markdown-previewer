@@ -1,0 +1,27 @@
+.container {
+    margin: 20px auto;
+    max-width: 550px;
+    border: 1px solid black;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.8);
+    background-color: var(--cont-bg-color);
+}
+
+.container-head {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: var(--cont-head-color);
+    font-size: 1rem;
+}
+
+.container-head div i {
+    margin-right: 8px;
+}
+
+.fa-arrows-alt:hover,
+.fa-compress:hover {
+    color: aquamarine;
+    cursor: pointer;
+}
